@@ -1,0 +1,84 @@
+h1{
+    font-size: 60px;
+}
+
+.menu-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin-top: 60px;
+    row-gap: 50px;
+    margin-bottom: 30px;
+}
+
+.menu-meta{
+    
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+    padding-top: 20px;
+    border: none;
+    cursor: pointer;
+    color: #212529;
+    box-shadow: 10px 20px 20px 0 rgba(0, 0, 0, 0.201);
+    height: 200px;
+    
+}
+
+.menu-meta:hover{
+    box-shadow: none;
+}
+
+.menu-infra{
+    background-color: #aef1f7d8;
+}
+.menu-infra:hover{
+    background-color: #0c8499c1;
+    color: white;
+}
+
+.menu-settings{
+    background-color: #e9fac8;
+}
+
+.menu-settings:hover{
+    background-color: #5c940d;
+    color: white;
+}
+
+.menu-entities{
+    background-color: #ffe066;
+}
+
+.menu-entities:hover{
+    background-color: #e67700;
+    color: white;
+}
+
+
+.menu-runbook{
+    background-color: #d0bfff;
+}
+
+.menu-runbook:hover{
+    background-color: #5f3dc4;
+    color: white;
+}
+.menu-analytics{
+    background-color:olive
+}
+
+.menu-incidents{
+    background-color:palevioletred
+}
+
+.menu-heavyhitters{
+    background-color: thistle;
+}
+
+.menu-policies{
+    background-color: steelblue;
+}
+

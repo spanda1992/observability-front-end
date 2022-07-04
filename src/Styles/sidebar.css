@@ -1,0 +1,27 @@
+  #sidebar-observability .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper{
+    color: #000;
+    border-radius: 3px;
+    background-image: linear-gradient(0deg, #fece00 0%, #ffe172 100%);
+  }
+
+  #sidebar-observability{
+    background-color: #fece00 !important;
+  }
+
+  #sidebar-observability .closemenu {
+    color: wheat;
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+    line-height: 20px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 22px;
+    top: 55px;
+    cursor: pointer;
+  }
+
+  #sidebar-observability .pro-sidebar-inner {
+    background-color: rgb(33, 60, 71);
+    box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.15);
+  }

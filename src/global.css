@@ -1,0 +1,56 @@
+*{
+    font-family: sans-serif;
+}
+
+.app-name{
+    font-size: 40px;
+    color: rgb(40, 40, 40);
+    margin: 0;
+    color: #087f5b;
+    padding:10px 10px;
+    text-transform: uppercase;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.log-in-out{
+    border-radius: 20px;
+    border: none;
+    background-color: #2f9e44;
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    padding:10px 15px;
+}
+
+.log-in-out:hover{
+    background-color: #40c057;
+}
+
+.main-header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header{
+    background-color: #e6fcf5;
+}
+
+.login-page-background{
+    background-image: url('../public/background-image-2.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.background-overlay{
+    background-color: rgba(0, 0, 0, 0.5); 
+   
+}
+
+

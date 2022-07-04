@@ -1,0 +1,4 @@
+.card:hover{
+    background-color: rgba(239, 215, 215, 0.557);
+    font-weight: bolder;
+}
